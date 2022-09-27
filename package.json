@@ -1,6 +1,6 @@
 {
   "name": "sentry-quickapp",
-  "version": "1.0.6",
+  "version": "1.0.7",
   "description": "用于快应用的 Sentry SDK",
   "repository": "git://github.com/uappkit/sentry-quickapp.git",
   "homepage": "https://github.com/uappkit/sentry-quickapp",
