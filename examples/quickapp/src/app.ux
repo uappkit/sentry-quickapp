@@ -8,7 +8,7 @@
 
 // 引入全局函数定义文件global.js
 import './global'
-import * as sentry from 'sentry-uniapp'
+import * as sentry from 'sentry-quickapp'
 
 sentry.init({
   dsn: "https://9d8f4b56ae4f4a48bc1e0974d7642a87@sentry.io/1534850"

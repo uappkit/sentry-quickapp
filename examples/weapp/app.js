@@ -1,4 +1,4 @@
-import * as sentry from 'sentry-uniapp'
+import * as sentry from 'sentry-quickapp'
 
 // 初始化 Sentry
 Sentry.init({
@@ -52,7 +52,7 @@ App({
               // Sentry.captureException(
               //   new Error("Good good stydy, day day up!")
               // );
-              // Sentry.captureMessage("Hello, sentry-uniapp!");
+              // Sentry.captureMessage("Hello, sentry-quickapp!");
 
               // 由于 getUserInfo 是网络请求，可能会在 Page.onLoad 之后才返回
               // 所以此处加入 callback 以防止这种情况

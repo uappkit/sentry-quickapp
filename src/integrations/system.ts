@@ -81,7 +81,7 @@ export class System implements Integration {
             }
           };
         } catch (e) {
-          console.warn(`sentry-uniapp get system info fail: ${e}`);
+          console.warn(`sentry-quickapp get system info fail: ${e}`);
         }
       }
 

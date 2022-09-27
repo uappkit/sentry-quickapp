@@ -38,7 +38,7 @@ export const defaultIntegrations = [
  *
  * @example
  * ```
- * import { init } from 'sentry-uniapp';
+ * import { init } from 'sentry-quickapp';
  *
  * init({
  *   dsn: '__DSN__',
@@ -48,7 +48,7 @@ export const defaultIntegrations = [
  *
  * @example
  * ```
- * import { configureScope } from 'sentry-uniapp';
+ * import { configureScope } from 'sentry-quickapp';
  *
  * configureScope((scope: Scope) => {
  *   scope.setExtra({ battery: 0.7 });
@@ -59,7 +59,7 @@ export const defaultIntegrations = [
  *
  * @example
  * ```
- * import { addBreadcrumb } from 'sentry-uniapp';
+ * import { addBreadcrumb } from 'sentry-quickapp';
  *
  * addBreadcrumb({
  *   message: 'My Breadcrumb',
@@ -69,7 +69,7 @@ export const defaultIntegrations = [
  *
  * @example
  * ```
- * import * as Sentry from 'sentry-uniapp';
+ * import * as Sentry from 'sentry-quickapp';
  *
  * Sentry.captureMessage('Hello, world!');
  * Sentry.captureException(new Error('Good bye'));
@@ -90,7 +90,7 @@ export function init(options: MiniappOptions = {}): void {
     options.defaultIntegrations = defaultIntegrations;
   }
 
-  // https://github.com/uappkit/sentry-uniapp/issues/23
+  // https://github.com/uappkit/sentry-quickapp/issues/23
   options.normalizeDepth = options.normalizeDepth || 5;
 
   initAndBind(MiniappClient, options);

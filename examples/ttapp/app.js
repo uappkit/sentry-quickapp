@@ -1,4 +1,4 @@
-import * as sentry from 'sentry-uniapp'
+import * as sentry from 'sentry-quickapp'
 
 console.log(Sentry);
 // 初始化 Sentry
